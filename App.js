@@ -4,12 +4,14 @@ import { createStackNavigator } from 'react-navigation-stack';
 
 const variables = require('./variables.js');
 
-import ExampleScreen from './screens/Example.js';
+import HomeScreen from './screens/HomeScreen';
+import ClusterScreen from './screens/ClusterScreen';
 
 const MainNavigator = createStackNavigator({
-  Example: { screen: ExampleScreen },
+  Home: { screen: HomeScreen },
+  Cluster: { screen: ClusterScreen }
 }, {
-    initialRouteName: 'Example',
+    initialRouteName: 'Home',
     /* The header config from HomeScreen is now here */
     defaultNavigationOptions: {
       headerStyle: {

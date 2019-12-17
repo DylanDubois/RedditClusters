@@ -1,6 +1,6 @@
 module.exports = {
     colors: {
-        primaryColor: '#8A2BE2'
+        primaryColor: '#FF4500'
     },
     fontStyles: {
         header: {
@@ -12,7 +12,7 @@ module.exports = {
         },
         paragraph: {
             fontSize: 14,
-            fontWeight: 'light'
+            fontWeight: '300'
         }
     }
 };
